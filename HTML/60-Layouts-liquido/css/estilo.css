@@ -1,0 +1,70 @@
+/*******************************
+Layout's*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #f2f2f2;
+}
+
+#container {
+    border: 1px solid red;
+    width: 85%; /*720px;*/
+    margin: 0 auto;
+    background: coral;
+    min-width: 720px;
+    /*max-width: 960px;*/
+}
+
+#marca {
+    max-width: 100%;
+    height: 100px;
+    background: cornflowerblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo {
+    border: 1px solid black;
+    width: 75%; /*520px; → 75 */
+    float: right;
+}
+#navegacao {
+    border: 1px solid black;
+    width: 23%; /*180px; → 25 */
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: lightseagreen;
+}
+/* 320 + 180 = 500 */
+#conteudo-principal {
+    width: 63%; /* 320px x 100 / 500 = 64% */
+    float: left;
+    text-align: justify;
+}
+#conteudo-secundario {
+    width: 34%; /* 180px x 100 / 500 = 36 % */
+    float: right;
+    background: skyblue;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+#navegacao ul {
+    list-style: none;
+}
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: chocolate;
+    padding: 5px;
+}
