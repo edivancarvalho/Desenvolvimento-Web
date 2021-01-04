@@ -1,0 +1,36 @@
+/**********************************
+Estilizando tabelas */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    width: 600px;
+    border-collapse: separate; /*collapse;*/
+}
+th,td {
+    /*border: 1px solid black;*/
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid steelblue;
+    border-bottom: 1px solid teal;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background: #efefef;
+
+}
+tr:hover {
+    background-color: cornflowerblue;
+}
+
+.numero {
+    text-align: right;
+}
