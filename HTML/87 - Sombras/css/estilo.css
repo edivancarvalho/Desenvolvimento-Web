@@ -1,0 +1,15 @@
+#caixa {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: turquoise;
+    box-shadow: 15px -20px 5px rgba(53, 49, 49, 0.1);
+}
+
+#caixa h1{
+    color: rgb(32, 3, 32);
+    /*text-shadow: 15px -20px rgb(53, 49, 49);*/
+    /*text-shadow: 15px -20px rgba(53, 49, 49, 0.3);*/
+    text-shadow: 15px -20px 2px rgba(53, 49, 49, 0.3);
+}
