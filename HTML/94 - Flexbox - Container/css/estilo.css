@@ -1,0 +1,29 @@
+/*
+fonte: https://www.w3schools.com/css/css3_transitions.asp
+*/
+
+#conteudo{
+    background: #dcdcdc;
+    
+    height: 600px;
+    display: flex;
+
+    /* row | row-reverse | column | column-reverse */
+    flex-direction: row;
+
+    /* nowrap | wrap | wrap-reverse */
+    flex-wrap: nowrap;
+
+    /*  flex-start | flex-end | center | space-between | space-round*/
+    justify-content: space-around;
+
+    /*  streatch \ center | flex-start | flex-end | baseline*/
+    align-items: baseline;
+}
+
+.item {
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    
+}
