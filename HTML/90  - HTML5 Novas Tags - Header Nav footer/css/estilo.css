@@ -1,0 +1,19 @@
+/*
+fonte: https://www.w3schools.com/css/css3_transitions.asp
+*/
+
+header {
+    border: 1px solid steelblue;
+}
+
+nav {
+    border: 1px solid steelblue;
+    background: tomato;
+    padding: 5px;   
+    margin: 10px auto; 
+}
+
+footer {
+    text-align: center;
+    background: coral;
+}
